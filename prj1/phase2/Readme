@@ -1,0 +1,12 @@
+System Programing Project1 - Myshell
+ - linux shell의 기능을 구현
+ - make 실행 후 ./myshell 로 실행
+
+    1. Phase1
+        - cd, ls, echo, exit 등 간단한 shell command를 수행
+        - 따옴표가 포함되어 있을 때 처리 방법을 포함
+        - ex) cd ~, echo "   a", ls -al, exit ...
+
+    2. Phase2
+        - pipe 구조를 포함하고 있는 명령을 수행
+        - ex) ls -al | grep my | sort, cat Makefile|grep my ...
